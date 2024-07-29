@@ -1,30 +1,38 @@
-# React + TypeScript + Vite
+# Todo Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+This is a Todo application built with React and TypeScript. It provides functionality to manage tasks including adding, editing, deleting, and marking tasks as complete or incomplete. Users can also filter tasks based on their completion status.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Add a new task**: Enter a task in the input field and click the add button to add it to the list.
+- **Edit tasks**: Click the edit icon next to a task to modify its text.
+- **Toggle completion**: Click the check icon to mark a task as completed or active.
+- **Delete tasks**: Click the delete icon to remove a task from the list.
+- **Filter tasks**: Use the dropdown menu to filter tasks by All, Completed, or Active status.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Requirements
 
-- Configure the top-level `parserOptions` property like this:
+- Node.js (v14 or higher)
+- npm (v6 or higher) or yarn (optional)
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+## Getting Started
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+To get a local copy of this project up and running, follow these steps:
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Prattty001/ADtoddo.git
+cd ADtoddo
+### 2. Install Dependencies
+npm install
+# or
+yarn install
+3. Run the Application
+npm start
+# or
+yarn start
+
+
